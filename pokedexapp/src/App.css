@@ -6,23 +6,26 @@
     padding: 20px; } 
     
     .pokemonPhoto img { 
-      width: 130px; height: 130px; 
+      width: 100px; height: 100px; 
     }
     
     .container-card { 
       align-items: center;
+      border-radius: 25px;
+      background-color:rgb(252, 201, 153);
        border: 2px solid red;
         color: rgb(228, 21, 21);
          display: flex; 
          flex-direction: column;
           justify-content: center;
-           margin: 20px; width: 275px;
+           margin: 20px; width: 200px;
            } 
            
            .title {
               text-align: center; 
             }
              .search {
+               
                 background-image: url(https://img.icons8.com/ios/344/search--v1.png); 
                 background-position: 10px;
                  background-repeat: no-repeat;
@@ -32,5 +35,6 @@
                     font-size: 16px; 
                     outline: 0;
                      padding: 17px 17px 17px 50px;
-                      width: 315px; 
+                      width: 1000px;
+                       
                     }

@@ -13,10 +13,10 @@ function App() {
           if (searchTerm === "") {
             return id
           }
-          else if (
-            id.name.toLowerCase().includes(searchTerm.toLowerCase())) {
-            return id;
-          }
+          else  if (
+              id.name.toLowerCase().includes(searchTerm.toLowerCase())) {
+              return id;
+            }
         }).map((id, key) => {
           return <div key={id.id} className="container-card">
             <h3> {id.id} </h3>
